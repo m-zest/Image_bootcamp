@@ -1,0 +1,24 @@
+.selected-image{
+    width:100%;
+    opacity: 0.8;
+    margin-bottom: 10px;
+    height: 150px;
+    transition: transform 0.45s;
+}
+
+.selected-image:hover{
+    transform: scale(1.25);
+}
+
+.links{
+    color:rgb(255, 255, 255);
+    margin-right: 300px;
+   
+}
+.links:hover{
+    color:rgb(0, 0, 0);
+    
+}
+.links:active{
+    color:rgb(26, 19, 19)
+}
